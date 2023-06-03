@@ -1,3 +1,9 @@
+/*
+ * @author Tomasz Wąs
+ * @create date 2023-06-02 12:18:59
+ * @modify date 2023-06-03 18:01:36
+ * @desc View for prison database
+ */
 
 --Widok zbiera informacje o wizycie, wiezniu oraz osobie odwiedzającej
 CREATE VIEW WizytacjeWiezniow
