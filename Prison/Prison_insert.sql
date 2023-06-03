@@ -30,7 +30,7 @@ INSERT INTO Program_rehabilitacja(nazwa,opis,czas_trwania) VALUES
     ('Program 5', 'Praca minus terapia',7);
 
 -- Tabela osadzonych
-INSERT INTO Wiezien(imie,nazwisko,data_urodzenia,wiek,narodowosc,id_rehabilitacja,id_praca,id_placowka) VALUES
+INSERT INTO Wiezien(imie,nazwisko,data_urodzenia,wiek_przyjecia,narodowosc,id_rehabilitacja,id_praca,id_placowka) VALUES
     ('Gavrilo', 'Princip','1894-07-25',23, 'Austro-Wegry',1,1,1),
     ('Konrad', 'Adenauer','1924-03-22',55, 'Niemcy',1,2,1),
 	('Adam', 'Mickiewicz','1222-02-11',19, 'Litwa',2,2,1),
