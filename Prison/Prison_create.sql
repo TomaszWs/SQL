@@ -1,3 +1,9 @@
+/*
+ * @author Tomasz Wąs
+ * @create date 2023-06-02 12:41:27
+ * @modify date 2023-06-03 18:07:53
+ * @desc creates tables for prison database
+ */
 SET DATEFORMAT ymd;
 
 CREATE TABLE Program_rehabilitacja(
