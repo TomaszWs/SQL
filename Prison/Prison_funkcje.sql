@@ -33,7 +33,7 @@ BEGIN
     SET @koniec_wyroku = DATEADD(DAY, @czas_trwania, @data_wydania);
     -- Oblicza czas pozostały do końca wyroku
     SET @pozostaly_czas = DATEDIFF(DAY, GETDATE(), @koniec_wyroku);
-    -- Wstawienie wyników do tabeli tymczasowej
+    -- Wstawienie wyników do tabeli tymczasowej @wyniki
     INSERT INTO @wyniki (pozostaly_czas, koniec_wyroku) VALUES (@pozostaly_czas, @koniec_wyroku);
     -- Zwrócenie tabeli tymczasowej
     RETURN;
